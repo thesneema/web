@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>product</title>
+  </head>
+  <body>
+    Enter the First number : <input id="first"> Enter the Second number:
+    <input id="second"><br><br>
+    <button onclick="product()">PRODUCT</button>
+    <input id="answer">
+    <script>
+      function product() {
+        var a, b, c;
+        a = Number(document.getElementById("first").value);
+        b = Number(document.getElementById("second").value);
+        c = a * b;
+        document.getElementById("answer").value = c;
+      }
+    </script>
+  </body>
+</html>
+
